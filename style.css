@@ -37,6 +37,35 @@ body > header > nav > ul {
     padding: 12px;
 }
 
+#main-content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 70%;
+}
+
+body > footer {
+    background-color: teal;
+    display: flex;
+}
+
+#footer-navigation {
+    display: flex;
+    list-style: none;
+}
+
+#footer-navigation > div > li {
+    margin-left: 12px;
+}
+
+#footer-navigation > div > li > a {
+    color: white;
+    text-decoration: none;
+}
+
 form {
     display: flex; 
     align-items: center;
