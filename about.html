@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
     <script src="app.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap">
     <meta charset="UTF-8">
@@ -29,11 +30,21 @@
         </nav>
     </header>
     <main>
-        <h2>About Me</h2>
-        <h3>Ren Hancock</h3>
-        <h4>They/Them</h4>
-        <img src="Profile_picture.png" alt="Profile picture of a white person with blue hair wearing a red hoodie on a yellow background." width="100" height="100">
-        <p>I am a recent Biomedical Science graduate from the University of Warwick who is passionate about improving science communication. I take take topics that are in the news and break them down in a easy to understand way.</p>
+        <h2 id="about-title">About Me</h2>
+        <div id="grid-container">
+            <div id="personal_info">
+                <h3 id="name">Ren Hancock</h3>
+                <h4 id="pronouns">They/Them</h4>
+            </div>
+            <img src="Profile_picture.png" id="profile_picture" alt="Profile picture of a white person with blue hair wearing a red hoodie on a yellow background." width="50" height="50">
+            <p id="bio">I am a recent Biomedical Science graduate from the University of Warwick who is passionate about improving science communication. I take take topics that are in the news and break them down in a easy to understand way.</p>
+            <h4 id="follow">Follow Me!</h4>
+            <div id="social_media">
+                <a href="https://www.instagram.com/renh_2025/"><img id="instagram" src="instagram_logo.png" alt="instagram logo" width="25" height="25"></a> 
+                <a href="https://www.linkedin.com/in/ren-hancock-466404320/"><img id="LinkedIn" src="LinkedIn_logo.png" alt="LinkedIn logo" width="25" height="25"></a>
+            </div>
+            
+        </div>
     </main>
     <footer>
         <h2>The Skeptical Scientist</h2>

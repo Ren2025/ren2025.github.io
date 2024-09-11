@@ -22,6 +22,10 @@ body > header {
     height: 12vh;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 body > header > nav > ul {
@@ -44,12 +48,21 @@ body > header > nav > ul {
 }
 
 #main-content > div {
-    width: 70%;
+    width: 60%;
+}
+
+.fixed-aside {
+    position: fixed;
+    left: 0;
+    height: 100vh;
 }
 
 body > footer {
     background-color: teal;
     display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #footer-navigation {
@@ -64,32 +77,4 @@ body > footer {
 #footer-navigation > div > li > a {
     color: white;
     text-decoration: none;
-}
-
-form {
-    display: flex; 
-    align-items: center;
-    justify-content: center; 
-    margin-top: 20px; 
-}
-
-input[type="search"] {
-    padding: 10px; 
-    font-size: 16px; 
-    border: 2px solid #ccc; 
-    border-radius: 4px 0 0 4px; 
-    outline: none; 
-}
-
-button {
-    padding: 10px 20px;
-    font-size: 16px; 
-    border: 2px solid #ccc;
-    background-color: #eee;
-    cursor: pointer;
-    border-radius: 0 4px 4px 0;
-}
-
-button:hover {
-    background-color: #ddd;
 }

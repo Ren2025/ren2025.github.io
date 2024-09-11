@@ -1,0 +1,48 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+main {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+}
+
+#personal_info {
+    grid-area: info;
+}
+
+#profile-picture {
+    grid-area: profile-picture;
+
+}
+
+#bio {
+    grid-area: bio;
+}
+
+#follow {
+    grid-area: follow;
+}
+
+#social_media {
+    grid-area: social;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "info profile-picture . ."
+    "bio bio bio bio"
+    "follow follow follow follow"
+    "social . . ."
+    ;
+}
+
+
