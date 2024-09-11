@@ -18,7 +18,6 @@ main {
 
 #profile-picture {
     grid-area: profile-picture;
-
 }
 
 #bio {
@@ -37,6 +36,8 @@ main {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr;
     grid-template-rows: auto;
+    align-items: center;
+    justify-content: space-between;
     grid-template-areas: 
     "info profile-picture . ."
     "bio bio bio bio"
