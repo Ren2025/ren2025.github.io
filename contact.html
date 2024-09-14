@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="contact.css">
     <script src="app.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Skeptical Scientist</title>
@@ -35,29 +35,32 @@
         <h3>Send me an an email!</h3>
         <p><a href="mailto:rhancock2025@outlook.com">rhancock2025@outlook.com</a></p>
         <h3>Fill in this form:</h3>
-        <form action="" method=""></form>
-            <label for="first_name">First Name:</label>
-            <input type="text" id="first_name" name="first_name" required>
-            <br>
+        <div id="grid-container">
+            <form action="" method="post"></form>
+                <label for="first_name" id="fn-label">First Name:</label>
+                <input type="text" id="first_name" name="first_name" required>
+                <br>
 
-            <label for="last_name">Last Name:</label>
-            <input type="text" id="last_name" name="last_name" required>
-            <br>
+                <label for="last_name" id="ln-label">Last Name:</label>
+                <input type="text" id="last_name" name="last_name" required>
+                <br>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <br>
+                <label for="email" id="email-label">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
 
-            <label for="message">Message:</label>
-            <textarea name="message" id="message" cols="30" rows="5"></textarea>
-            <br>
+                <label for="message" id="message-label">Message:</label>
+                <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                <br>
 
-            <input type="checkbox" name="suscribe" id="suscribe">
-            <label for="suscribe">Suscribe to our email updates!</label>
-            <br>
+                <input type="checkbox" name="suscribe" id="suscribe">
+                <label for="suscribe" id="suscribe-label">Suscribe to our email updates!</label>
+                <br>
 
-            <input type="submit" value="Send">
-         </form>
+                <input type="submit" value="Send" id="send">
+            </form>
+        </div>
+        
     </main>
     <footer>
         <h2>The Skeptical Scientist</h2>

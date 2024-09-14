@@ -4,3 +4,65 @@ main {
     padding-top: 15vh;
     padding-bottom: 5vh;
 }
+
+#fn-label {
+    grid-area: fn-label;
+}
+
+#first_name {
+    grid-area: first_name;
+}
+
+#ln-label {
+    grid-area: ln-label;
+}
+
+#last_name {
+    grid-area: last_name;
+}
+
+#email-label {
+    grid-area: email-label;
+}
+
+#email {
+    grid-area: email;
+}
+
+#message-label {
+    grid-area: message-label;
+}
+
+#message {
+    grid-area: message;
+}
+
+#suscribe {
+    grid-area: suscribe;
+}
+
+#suscribe-label {
+    grid-area: suscribe-label;
+    align-self: center;
+}
+
+#send {
+    grid-area: send;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto;
+    align-items: start;
+    justify-items: start;
+    justify-content: space-between;
+    grid-template-areas: 
+    "fn-label first_name"
+    "ln-label last_name"
+    "email-label email"
+    "message-label message"
+    "suscribe suscribe-label"
+    "send ."
+    ;
+}
