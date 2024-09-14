@@ -16,8 +16,8 @@ body {
 }
 
 body > header {
-    background-color: teal;
-    color: white;
+    background-color: #218380;
+    color: #FFBC42;
     display: flex;
     height: 12vh;
     align-items: center;
@@ -37,6 +37,15 @@ body > header > nav > ul {
 
 main {
     padding-top: 12vh;
+}
+
+#welcome-text {
+    font-size: 2vh;
+}
+
+article {
+    padding-top: 1vh;
+    
 }
 
 .navbutton {
