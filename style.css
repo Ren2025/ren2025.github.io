@@ -16,8 +16,8 @@ body {
 }
 
 body > header {
-    background-color: #218380;
-    color: #FFBC42;
+    background-color: Teal;
+    color: white;
     display: flex;
     height: 12vh;
     align-items: center;
