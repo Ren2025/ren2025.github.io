@@ -7,7 +7,7 @@ body {
 
 #logo {
     margin: 0px;
-    padding: 8px;
+    padding: 1vw;
     font-family: "Protest Guerrilla", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -58,37 +58,40 @@ body > header > nav > ul {
 }
 
 @media screen and (min-width: 600px) {
-    .topnav .icon {
+    .icon {
         display: none;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .topnav li:not(:first-child) {
-        display: none;
-    }
-    .topnav li.icon {
-      float: inline-start;
-      display: block;
-      padding-left: 5vw;
-      color: black;
-    }
-    .topnav.responsive {
-        position: relative;
+    .topnav {
+        color: black;
         display: flex;
         flex-direction: column;
     }
-    .topnav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-      color: white;
+    .topnav ul {
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 1em;
+        margin: 1em;
     }
-    .topnav.responsive ul {
+    .navbutton {
+        float: none;
+        display: none;
+    }
+    .topnav a.icon {
+      display: block;
+      position: absolute;
+    }
+    .responsive ul {
+        display: flex;
+        flex-direction: column;
+        background-color: teal;
+    }
+    .responsive ul li a {
       text-align: left;
-      color: white;
-      flex-direction: column-reverse;
-      font-size: 2em;
     }
 }
 
