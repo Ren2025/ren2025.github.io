@@ -111,6 +111,7 @@ body > footer {
     overflow: hidden;
     align-items: center;
     justify-content: space-around;
+    width: 100%;
 }
 
 #footer-navigation {
