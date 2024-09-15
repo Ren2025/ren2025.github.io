@@ -8,8 +8,11 @@ main {
     width: 90%;
     height: 90%;
     margin: auto;
-    padding-top: 15vh;
     padding-bottom: 5vh;
+}
+
+img {
+    border-radius: 20em;
 }
 
 #personal_info {
