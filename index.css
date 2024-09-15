@@ -14,6 +14,7 @@ article {
 
 #main-content > div {
     width: 40em;
+    padding-left: 5em;
 }
 
 .fixed-aside {
