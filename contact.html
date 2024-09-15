@@ -13,7 +13,7 @@
 <body>
     <header>
         <h1 id="logo">The Skeptical Scientist</h1>
-        <nav>
+        <nav class="topnav" id="mytopnav">
             <ul>
                 <li>
                     <a href="index.html" class="navbutton" >Home</a>
@@ -22,10 +22,15 @@
                     <a href="about.html" class="navbutton" >About me</a>
                 </li>
                 <li>
-                    <a href="contact.html" class="navbutton">Contact me</a>
+                    <a href="contact.html" class="navbutton active">Contact me</a>
                 </li>
                 <li>
                     <a href="search.html" class="navbutton">Search</a>
+                </li>
+                <li class="icon">
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
                 </li>
             </ul>
         </nav>

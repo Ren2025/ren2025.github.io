@@ -13,11 +13,12 @@ article {
 }
 
 #main-content > div {
-    width: 60%;
+    width: 40em;
 }
 
 .fixed-aside {
     position: fixed;
     left: 0;
     height: 100vh;
+    width: 10em;
 }
