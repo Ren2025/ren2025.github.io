@@ -4,20 +4,22 @@
 
 article {
     margin-top: 1em; 
+    margin-bottom: 1em;
     padding-left: 1em;
-    border: 0.1em solid black;
+    border: 0.1em solid #45015d;
     border-radius: 25px;
-    background-color: rgba(23, 174, 174, 0.762);
+    background-color: #008080;
+    color: black;
+    
 }
 
 article a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 article a:hover {
-    color: teal;
-    border-radius: 25px;
+    color: #45015d;
 }
 
 #main-content {
