@@ -13,6 +13,24 @@ article {
     font-size: larger;
 }
 
+.dark-mode article {
+    background-color: rgb(0, 37, 37);
+    color: rgb(96, 189, 189);
+    border: none;
+}
+
+.dark-mode article a {
+    color: rgb(158, 158, 158);
+}
+
+.dark-mode article a:hover {
+    color: #7900a5;
+}
+
+.dark-mode aside a {
+    color: rgb(96, 189, 189);
+}
+
 article a {
     color: white;
     text-decoration: none;

@@ -5,6 +5,11 @@ body {
     background-color: #0080801f;
 }
 
+.dark-mode {
+    background-color: rgb(0, 28, 28);
+    color: rgb(96, 189, 189);
+}
+
 #logo {
     margin: 0px;
     padding: 1vw;
@@ -25,7 +30,9 @@ body {
     color: white;
 }
 
-
+.dark-mode #logo a {
+    color: rgb(198, 198, 198);;
+}
 
 body > header {
     background-color: Teal;
@@ -50,6 +57,12 @@ body > header > nav > ul {
     margin: 0;
 }
 
+.navbutton {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 12px;
+}
+
 .topnav a:hover {
     background-color: rgb(0, 54, 54);
     color: white;
@@ -60,6 +73,19 @@ body > header > nav > ul {
     color: black;
 }
 .topnav a.active:hover {
+    background-color: rgb(0, 54, 54);
+    color: white;
+}
+
+header > button {
+    padding: 12px;
+    background-color: teal;
+    border: none;
+    font-size: 1.5vw;
+    justify-self: end;
+}
+
+header > button:hover {
     background-color: rgb(0, 54, 54);
     color: white;
 }
@@ -104,12 +130,6 @@ body > header > nav > ul {
 
 main {
     padding-top: 5em;
-}
-
-.navbutton {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    padding: 12px;
 }
 
 body > footer {
