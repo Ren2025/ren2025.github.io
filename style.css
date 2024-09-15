@@ -67,7 +67,11 @@ body > header > nav > ul {
 }
 
 @media screen and (max-width: 600px) {
-    .topnav.responsive {position: relative;}
+    .topnav.responsive {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
     .topnav.responsive a.icon {
       position: absolute;
       right: 0;
@@ -78,6 +82,7 @@ body > header > nav > ul {
       text-align: left;
       color: white;
       flex-direction: column;
+      font-size: 2em;
     }
 }
 
