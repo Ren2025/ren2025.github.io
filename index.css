@@ -32,3 +32,7 @@ article {
     align-content: left;
     padding-left: 1.5em;
 }
+
+.fixed-aside > section >nav >ul >li {
+    padding-bottom: 0.5em;
+}
