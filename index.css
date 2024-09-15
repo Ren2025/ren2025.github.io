@@ -25,6 +25,11 @@ article {
     display: flex;
     padding-left: 1em;
 }
+.fixed-aside a:hover {
+    background-color: rgb(1, 66, 66);
+    color: white;
+    border-radius: 25px;
+}
 
 .fixed-aside > section >nav >ul {
     list-style: none;
@@ -34,5 +39,5 @@ article {
 }
 
 .fixed-aside > section >nav >ul >li {
-    padding-bottom: 0.5em;
+    padding-bottom: 1em;
 }

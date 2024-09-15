@@ -18,6 +18,8 @@ body {
         -1px -1px 0px rgb(4, 48, 48);
 }
 
+
+
 body > header {
     background-color: Teal;
     color: white;
@@ -37,6 +39,8 @@ body > header > nav > ul {
     text-decoration: none;
     display: flex;
     justify-content: space-around;
+    padding: 0;
+    margin: 0;
 }
 
 .topnav a:hover {
@@ -111,7 +115,7 @@ body > footer {
 }
 
 #footer-navigation > div > li {
-    margin-left: 12px;
+    margin-left: 1em;
 }
 
 #footer-navigation > div > li > a {
