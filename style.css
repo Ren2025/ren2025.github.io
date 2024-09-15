@@ -20,8 +20,9 @@ body {
 body > header {
     background-color: Teal;
     color: white;
+    overflow: hidden;
     display: flex;
-    height: 12vh;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     position: fixed;
@@ -37,8 +38,51 @@ body > header > nav > ul {
     justify-content: space-around;
 }
 
+.topnav a:hover {
+    background-color: rgb(1, 66, 66);
+    color: white;
+}
+
+.topnav a.active {
+    background-color: rgb(8, 213, 213);
+    color: black;
+}
+
+@media screen and (min-width: 600px) {
+    .topnav .icon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav li:not(:first-child) {
+        display: none;
+    }
+    .topnav li.icon {
+      float: inline-start;
+      display: block;
+      padding-left: 5vw;
+      color: white;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: white;
+    }
+    .topnav.responsive a {
+      text-align: left;
+      color: white;
+      flex-direction: column;
+    }
+}
+
 main {
-    padding-top: 12vh;
+    padding-top: 6em;
 }
 
 .navbutton {
@@ -50,7 +94,7 @@ main {
 body > footer {
     background-color: teal;
     display: flex;
-    height: 10vh;
+    height: 8vh;
     align-items: center;
     justify-content: space-around;
 }
