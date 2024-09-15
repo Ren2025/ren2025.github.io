@@ -22,38 +22,76 @@ article a:hover {
     color: #45015d;
 }
 
-#main-content {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
+@media screen and (min-width: 600px) {
+    #main-content {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    #main-content > div {
+        width: 40em;
+        padding-left: 5em;
+    }
+
+    .fixed-aside {
+        position: fixed;
+        left: 0;
+        height: 100vh;
+        width: 10em;
+        display: flex;
+        padding-left: 1em;
+    }
+    .fixed-aside a:hover {
+        background-color: teal;
+        color: white;
+        border-radius: 25px;
+    }
+
+    .fixed-aside > section >nav >ul {
+        list-style: none;
+        text-decoration: none;
+        align-content: left;
+        padding-left: 1.5em;
+    }
+
+    .fixed-aside > section >nav >ul >li {
+        padding-bottom: 1em;
+    }
 }
 
-#main-content > div {
-    width: 40em;
-    padding-left: 5em;
-}
+@media screen and (max-width: 600px) {
+    #main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    #main-content > div {
+        width: 90%;
+        padding-left: 5em;
+    }
+    
+    .fixed-aside {
+        display: flex;
+        padding-left: 1em;
+        flex-direction: row;
+    }
 
-.fixed-aside {
-    position: fixed;
-    left: 0;
-    height: 100vh;
-    width: 10em;
-    display: flex;
-    padding-left: 1em;
-}
-.fixed-aside a:hover {
-    background-color: teal;
-    color: white;
-    border-radius: 25px;
-}
-
-.fixed-aside > section >nav >ul {
-    list-style: none;
-    text-decoration: none;
-    align-content: left;
-    padding-left: 1.5em;
-}
-
-.fixed-aside > section >nav >ul >li {
-    padding-bottom: 1em;
+    .fixed-aside a:hover {
+        background-color: teal;
+        color: white;
+        border-radius: 25px;
+    }
+    
+    .fixed-aside > section >nav >ul {
+        list-style: none;
+        text-decoration: none;
+        align-content: left;
+        padding-left: 1.5em;
+    }
+    
+    .fixed-aside > section >nav >ul >li {
+        padding-bottom: 1em;
+    }
 }

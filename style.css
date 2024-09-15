@@ -71,11 +71,8 @@ body > header > nav > ul {
       float: inline-start;
       display: block;
       padding-left: 5vw;
-      color: white;
+      color: black;
     }
-}
-
-@media screen and (max-width: 600px) {
     .topnav.responsive {
         position: relative;
         display: flex;
@@ -87,10 +84,10 @@ body > header > nav > ul {
       top: 0;
       color: white;
     }
-    .topnav.responsive a {
+    .topnav.responsive ul {
       text-align: left;
       color: white;
-      flex-direction: column;
+      flex-direction: column-reverse;
       font-size: 2em;
     }
 }
