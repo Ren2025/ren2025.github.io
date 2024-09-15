@@ -41,35 +41,10 @@ main {
     padding-top: 12vh;
 }
 
-#welcome-text {
-    font-size: 2vh;
-}
-
-article {
-    padding-top: 1vh;
-    
-}
-
 .navbutton {
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 12px;
-}
-
-#main-content {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-}
-
-#main-content > div {
-    width: 60%;
-}
-
-.fixed-aside {
-    position: fixed;
-    left: 0;
-    height: 100vh;
 }
 
 body > footer {
