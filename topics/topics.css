@@ -6,3 +6,21 @@ main {
 article {
     padding-top: 1vh;
 }
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover {
+    color: #6a038f;
+}
+
+.dark-mode {
+    main a {
+        color: rgb(96, 189, 189);
+    }
+    main a:hover {
+        color: #7900a5;
+    }
+}

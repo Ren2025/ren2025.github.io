@@ -13,3 +13,10 @@ main a:hover {
     color: #45015d;
 }
 
+.dark-mode a {
+    color: rgb(96, 189, 189);
+}
+
+.dark-mode main a:hover {
+    color: #7b01a7;
+}

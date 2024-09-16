@@ -29,3 +29,12 @@ button {
 button:hover {
     background-color: #ddd;
 }
+
+.dark-mode button {
+    background-color: rgb(0, 64, 64);
+    border: 2px solid rgb(0, 54, 54);
+}
+
+.dark-mode button:hover {
+    background-color: rgb(0, 99, 99);
+}

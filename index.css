@@ -15,12 +15,12 @@ article {
 
 .dark-mode article {
     background-color: rgb(0, 37, 37);
-    color: rgb(96, 189, 189);
+    color: rgb(158, 158, 158);
     border: none;
 }
 
 .dark-mode article a {
-    color: rgb(158, 158, 158);
+    color: rgb(96, 189, 189);
 }
 
 .dark-mode article a:hover {
